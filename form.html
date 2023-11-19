@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width", width="device-width">
+    <title>Project Document</title>
+    <style>
+      .err{
+        color: red;
+
+      }
+      input{
+            padding: 10px 40px;
+            margin: 15px 0px;
+            border-radius: 20px;
+            background-color: white;
+        }
+        button{
+            padding: 20px 50px;
+            margin: 15px 0;
+            border-radius: 20px;
+            border: none;
+            color: white;
+            box-shadow: 1px 2px 2px;
+            background-color: orange;
+
+        }
+        form{
+            padding: 50px;
+            margin: 20px 10px;
+            align-items: center;
+        }
+        body{  
+      background-color: rgb(26, 26, 26);
+      color: white;
+      font-size: 19px;
+      font-family: sans-serif;
+        }
+        .main_container{
+      background-color: rgb(48, 48, 48);
+      padding: 50px;
+      border-radius: 60px 60px;
+      align-items: center;
+        }
+        .main_container{ 
+      box-shadow: 2px 2px 4px 2px rgb(134, 134, 134);
+        }
+    </style>
+</head>
+<body>
+    <form id="password_resetform">
+        <center>
+               <diV style="border: 1px solid black; height: 440px;width: 70%;" class="main_container">
+             <h1>PASSWORD RESET WITH JAVASCRIPT</h1>
+            <p>
+             <label for="oldpassword">old password</label>
+             <input type="password" id="oldpassword" name="oldpassword">
+             <br>
+             <span class="err"  data-err="oldpasswordErr"></span>
+            </p>
+            <p>
+            <label for="newpassword">new password</label>
+            <input type="password" id="newpassword" name="newpassword">
+            <br>
+            <span class="err" data-err="newpasswordErr"></span>
+            </p>
+            <p>
+             <label for="confirmpassword">confirm password</label>
+             <input type="password" id="confirmpassword" name="confirmpassword">
+             <br>
+             <span class="err" data-err="confirmpasswordErr"></span>
+            </p>
+         <button>reset</button>
+        </center>
+    </form>
+  <script src="form.js"></script> 
+</body>
+</html>
