@@ -30,7 +30,6 @@ resetForm.onsubmit= (e)=> {
       formErr.confirmpasswordErr = "must be the same value with your new password";
 
    }else{
-      console.log({oldpassword,newpassword,confirmpassword});
       alert("congratulation you've successfully reset your password,your new password is  "+newpassword);
 
    }
