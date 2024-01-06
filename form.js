@@ -30,7 +30,7 @@ resetForm.onsubmit= (e)=> {
       formErr.confirmpasswordErr = "must be the same value with your new password";
 
    }else{
-      alert("congratulation you've successfully reset your password,your new password is  ");
+      alert("congratulation you've successfully reset your password");
 
    }
    let errElement = document.querySelectorAll(".err");
